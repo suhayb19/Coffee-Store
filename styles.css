@@ -3,7 +3,9 @@ body
     background-image: url(brigitte-tohm-EAay7Aj4jbc-unsplash.jpg);
     background-position: center;
     background-size: 120%;
-    background-position: fixed;
+    position: fixed;
+
+
 }div.topnav {
     width: 22%;
     
@@ -31,7 +33,66 @@ div.topnav ul {
   
   /* Change the link color to #111 (black) on hover */
   div.topnav li a:hover {
-    background-color: #111;
+    background-color: lightgoldenrodyellow;
   }
+    div#about {
+        
+    }
 
-   
+    div#about,p {
+      position: relative;
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-left: 180px;
+        margin-top: 370px;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .container .btn {
+        position: absolute;
+        top: 1000%;
+        left: 240%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        margin: 2.1em auto 2.1em auto;
+      }
+      
+      .container .btn:hover {
+        background-color: rgb(146, 214, 45);
+        color: white;
+      }
+        div.contact {
+         text-align: center;
+        font-size: 1.3em;
+        width: 100%;
+        font-weight: 900;
+         margin-left: 380px;
+         padding-bottom: 240px;
+         
+        }
+          input {
+              width:50%;
+          }
+            textarea {
+              width:100%;
+
+            }
