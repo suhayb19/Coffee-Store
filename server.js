@@ -6,6 +6,10 @@ const path = require("path");
 app.use(express.json({extended: false}));
 app.use(express.static(path.join(__dirname, "public")));
 
+// app.get("/", (req, res) => {
+//     res.redirect("/home");
+// });
+
 // Routes middleware
 app.use("/home", require("./routers/home.js"));
 app.use("/news", require("./routers/news.js"));
